@@ -1,4 +1,12 @@
 .imagen-fluida{width:100%;height: auto;}
+header, footer{background-color:lightgrey;}
+header{border-bottom: 1px solid grey; position:sticky;top:0;z-index: 999;}
+footer{border-top:1px solid grey;}
+.mt-5{margin-top:50px;}
+.mb-5{margin-bottom}
+.p-2{padding:10px;}
+li{list-style-type: none;}
+a{text-decoration:none;}
 .gridIndex{
     display:grid;
     grid-template-areas:
@@ -26,10 +34,14 @@ footer{grid-area:footer;}
     header, footer{display: flex;
     flex-direction: row;
 justify-content: space-around;}
+a{font-size:2rem;}
+ul{display:flex;}
 }
 @media only screen and (max-width:768px){
     .gridMain, footer{
         display: flex;
         flex-direction: column;
     }
+    header{display: flex;}
+    a{font-size:1.5rem;}
 }

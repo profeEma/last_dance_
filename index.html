@@ -6,35 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Bienvenidos al sitio oficial de la NBA">
     <meta name="keywords" content="nba, basquet, proyecto nba, sitio oficial, pelota">
+    <!-- CSS AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- LINK CSS -->
     <link rel="stylesheet" href="css/estilo.css">
     <title>PROYECTO NBA - Inicio</title>
 </head>
 <body>
     <div class="gridIndex">
-        <header>
+        <header class="mb-5">
             <div class="logo">
                 <img src="img/logoLakers.png" alt="logo lakers">
             </div>
             <nav>
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="pages/contacto.html">Contacto</a></li>
+                    <li class="p-2"><a href="#">Inicio</a></li>
+                    <li class="p-2"><a href="pages/contacto.html">Contacto</a></li>
                 </ul>
             </nav>
         </header>
         <main class="gridMain">
-            <div class="encabezado">
+            <div class="encabezado" data-aos="fade-up">
                 <h1>Bienvenidos al sitio Oficial de Proyecto NBA</h1>
             </div>
-            <div class="img">
+            <div class="img" data-aos="fade-up">
                 <img src="img/img_kyrie.jpg" alt="Irving" class="imagen-fluida">
             </div>
-            <div class="parrafoImg">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam beatae dignissimos aperiam quis sint esse quas debitis, sed a veritatis quod deserunt numquam doloremque necessitatibus maiores illum. Consequatur, ex atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum minus minima accusantium quos rem voluptate alias, beatae natus quidem aspernatur esse autem culpa modi explicabo in a amet pariatur dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ad sed doloribus quisquam magnam aut ipsam consequuntur unde nemo! Amet distinctio minus nemo ipsam. Commodi, magnam nostrum? Perferendis, id impedit!</p>
+            <div class="parrafoImg p-5" data-aos="fade-up">
+                <p>Un encuentro no exento de problemas. Boston parecía tener el control del duelo y la victoria asegurada al comienzo de la segunda mitad, llegando a establecer una máxima de +20 mediado el tercer cuarto. Sin embargo, la conexión LeBron James-Anthony Davis-Russell Westbrook fue restando y restando cifras en el marcador hasta conseguir darle la vuelta. Con un parcial de 37-11 los angelinos soñaron con el triunfo, el cual tuvieron en su mano hasta prácticamente los tres últimos minutos del tiempo reglamentario.</p>
             </div>
         </main>
-        <footer>
+        <footer class="mt-5">
             <div class="logo">
                 <img src="img/logoLakers.png" alt="logo lakers">
             </div>
@@ -46,5 +48,10 @@
             </div>
         </footer>
     </div>
+    <!-- SCRIPT AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
